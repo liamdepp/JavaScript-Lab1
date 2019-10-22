@@ -3,7 +3,7 @@ let age = 20;
 let birthday = 'June 5th';
 let detroitGC = true;
 let lifeEvents = ["I was born in Chicago Illinois." , "I'm a fan of the United States National Soccer Team." , "Freshman year of highschool I placed 15th in the state for the 500 yard freestyle." , "I play most string instruments."];
-if (detroitGC === true) {
+if (detroitGC) {
     console.log (`My name is ${name} and I am a student at Grand Circus in Detroit, Michigan. I am currently ${age} years old and my birthday is on ${birthday}.`);
 } else {
     console.log(`My name is ${name} and I am a student at Grand Circus in Grand Rapids, Michigan. I am currently ${age} years old and my birthday is on ${birthday}.`);
